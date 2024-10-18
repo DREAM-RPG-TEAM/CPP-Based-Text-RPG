@@ -1,0 +1,35 @@
+# Visual Studio 관련 파일들 무시
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 빌드 결과물 무시
+bin/
+obj/
+Debug/
+Release/
+*.log
+
+# Visual Studio 임시 파일 무시
+*.ncb
+*.sdf
+*.opendb
+*.vcxproj.user
+
+# Resharper 관련 파일 무시
+_ReSharper*/
+*.DotSettings.user
+
+# 패키지 관련 파일 무시
+packages/
+
+# Test 결과 무시
+TestResults/
+*.trx
+*.coverage
+
+# 기타 설정 파일들 무시
+.vs/
+.idea/
